@@ -9,11 +9,9 @@ public class Main {
         int a = r.nextInt(10);
         System.out.println("a = " + a);
         switch (a){
-            case 5:
-                System.out.println("5!");
-                break;
-            case 6:
-                System.out.println("6!");
+                case 5:
+                case 6:
+                System.out.println("OK");
                 break;
                 default:
                     System.out.println("a = " + a);
